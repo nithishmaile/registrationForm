@@ -1,0 +1,87 @@
+/* Write your CSS code here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.registrationForm-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  width: 320px;
+  height: 260px;
+  padding: 30px;
+  box-shadow: 0px 4px 16px 0px;
+}
+
+.registrationForm-heading {
+  color: #ea580c;
+  font-size: 50px;
+  font-family: 'Roboto';
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.label-heading {
+  color: #475569;
+  font-size: 13px;
+  font-family: 'Roboto';
+  align-self: flex-start;
+  margin-bottom: 5px;
+}
+.input-container {
+  width: 250px;
+  padding: 5px;
+  outline: none;
+}
+.required-heading {
+  color: #ff0b37;
+  font-size: 12px;
+  font-family: 'Roboto';
+  margin-bottom: 20px;
+  margin-top: 0px;
+  align-self: flex-start;
+}
+.submit-button {
+  background-color: #ea580c;
+  color: white;
+  font-size: 12px;
+  font-family: 'Roboto';
+  border-radius: 5px;
+  border-width: 0px;
+  height: 20px;
+  width: 60px;
+  align-self: center;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.anotherSubmit-button {
+  background-color: #ea580c;
+  color: white;
+  font-size: 12px;
+  font-family: 'Roboto';
+  border-radius: 5px;
+  border-width: 0px;
+  height: 20px;
+  width: 180px;
+  align-self: center;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.successResponse-heading {
+  color: #475569;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.successResponse-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
